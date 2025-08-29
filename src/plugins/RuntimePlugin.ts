@@ -1,9 +1,6 @@
 import { IoCContainer } from '@fathym/ioc';
 import { EverythingAsCode } from '@fathym/eac';
-import {
-  EaCRuntimeConfig,
-  EaCRuntimePluginConfig,
-} from '@fathym/eac/runtime/config';
+import { EaCRuntimeConfig, EaCRuntimePluginConfig } from '@fathym/eac/runtime/config';
 import { EaCRuntimePlugin } from '@fathym/eac/runtime/plugins';
 import { EverythingAsCodeApplications } from '@fathym/eac-applications';
 import { OpenIndustrialGlobalDataIngestPlugin } from '@o-industrial/common/runtimes';
@@ -24,7 +21,7 @@ export default class RuntimePlugin implements EaCRuntimePlugin {
           Deno.env.get('AZURE_IOT_HUB_EVENT_HUB_CONNECTION_STRING')!,
           Deno.env.get('AZURE_IOT_HUB_EVENT_HUB_NAME')!,
           Deno.env.get('AZURE_IOT_HUB_CONNECTION_STRING')!,
-          Deno.env.get('OPEN_INDUSTRIAL_API_ROOT')!
+          Deno.env.get('OPEN_INDUSTRIAL_API_ROOT')!,
         ),
       ],
       IoC: new IoCContainer(),
@@ -32,7 +29,7 @@ export default class RuntimePlugin implements EaCRuntimePlugin {
         Projects: {
           core: {
             Details: {
-              Priority: 100
+              Priority: 100,
             },
             ResolverConfigs: {
               localhost: {
