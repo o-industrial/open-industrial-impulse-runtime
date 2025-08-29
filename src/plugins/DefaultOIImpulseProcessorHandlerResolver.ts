@@ -8,7 +8,7 @@ import { EverythingAsCode } from '@fathym/eac';
 import { DefaultOpenIndustrialProcessorHandlerResolver } from '@o-industrial/common/runtimes';
 import { EverythingAsCodeApplications } from '@fathym/eac-applications';
 
-export class DefaultOIAPIProcessorHandlerResolver implements ProcessorHandlerResolver {
+export class DefaultOIImpulseProcessorHandlerResolver implements ProcessorHandlerResolver {
   public async Resolve(
     ioc: IoCContainer,
     appProcCfg: EaCApplicationProcessorConfig,
