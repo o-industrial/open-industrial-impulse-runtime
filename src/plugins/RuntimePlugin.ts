@@ -5,6 +5,7 @@ import { EaCRuntimePlugin } from '@fathym/eac/runtime/plugins';
 import { EverythingAsCodeApplications } from '@fathym/eac-applications';
 import { OpenIndustrialGlobalDataIngestPlugin } from '@o-industrial/common/runtimes';
 import { DefaultOIImpulseProcessorHandlerResolver } from './DefaultOIImpulseProcessorHandlerResolver.ts';
+import { EaCProxyProcessor } from '@fathym/eac-applications/processors';
 
 export default class RuntimePlugin implements EaCRuntimePlugin {
   constructor() {}
@@ -56,7 +57,25 @@ export default class RuntimePlugin implements EaCRuntimePlugin {
               },
             },
             ModifierResolvers: {},
-            ApplicationResolvers: {},
+            ApplicationResolvers: {
+              web: {
+                PathPattern: '*',
+                Priority: 100,
+              },
+            },
+          },
+        },
+        Applications: {
+          web: {
+            Details: {
+              Name: 'Web Temp',
+              Description: 'Web Temp.',
+            },
+            ModifierResolvers: {},
+            Processor: {
+              Type: 'Proxy',
+              ProxyRoot: 'https://www.fathym.com',
+            } as EaCProxyProcessor,
           },
         },
       },
