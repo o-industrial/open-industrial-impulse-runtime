@@ -16,7 +16,7 @@
     "check": "deno fmt --check && deno lint && deno check **/*.ts && deno check **/*.tsx",
     "clean:docker": "docker stop open-industrial-impulse-runtime || true && docker rm open-industrial-impulse-runtime || true",
     "deploy": "npx rimraf cov && deno task build && deno task test && npx ftm git",
-    "deploy:docker": "docker run --name open-industrial-impulse-runtime --network o-industrial-runtimes --env-file .env.docker -dp 127.0.0.1:5412:5412 open-industrial-impulse-runtime",
+    "deploy:docker": "docker run --name open-industrial-impulse-runtime --network o-industrial-runtimes --env-file .env.docker -dp 127.0.0.1:5414:5414 open-industrial-impulse-runtime",
     "dev": "deno run -A --watch=apps/,configs/,data/,routes/,src/,static/ dev.ts",
     "network:docker": "docker network create o-industrial-runtimes || true",
     "publish:check": "deno publish --dry-run --allow-dirty",
