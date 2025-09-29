@@ -26,7 +26,7 @@
     "version": "deno run -A jsr:@fathym/common@0/build/version"
   },
   "imports": {
-    "@fathym/common": "jsr:@fathym/common@0.2.272",
+    "@fathym/common": "jsr:@fathym/common@0.2.273",
     "@fathym/eac": "jsr:@fathym/eac@0.2.122",
     "@fathym/eac-applications": "jsr:@fathym/eac-applications@0.0.195",
     "@fathym/eac-azure": "jsr:@fathym/eac-azure@0.0.113",
