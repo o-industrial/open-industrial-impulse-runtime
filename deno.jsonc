@@ -27,7 +27,7 @@
   },
   "imports": {
     "@fathym/common": "jsr:@fathym/common@0.2.273",
-    "@fathym/eac": "jsr:@fathym/eac@0.2.122",
+    "@fathym/eac": "jsr:@fathym/eac@0.2.127-integration",
     "@fathym/eac-applications": "jsr:@fathym/eac-applications@0.0.195",
     "@fathym/eac-azure": "jsr:@fathym/eac-azure@0.0.113",
     "@fathym/eac-deno-kv": "jsr:@fathym/eac-deno-kv@0.0.23",
