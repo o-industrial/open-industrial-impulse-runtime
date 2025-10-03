@@ -37,7 +37,7 @@
     "@fathym/eac-iot": "jsr:@fathym/eac-iot@0.0.27",
     "@fathym/ioc": "jsr:@fathym/ioc@0.0.14",
 
-    "@o-industrial/common": "jsr:@o-industrial/common@0.0.470-hmis",
+    "@o-industrial/common": "jsr:@o-industrial/common@0.0.473-integration",
 
     "@nats": "npm:nats@2.29.3",
     "preact": "npm:preact@10.20.1",
