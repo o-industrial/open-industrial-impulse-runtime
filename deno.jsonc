@@ -38,14 +38,8 @@
     "@fathym/ioc": "jsr:@fathym/ioc@0.0.14",
 
     "@o-industrial/common": "jsr:@o-industrial/common@0.0.475-integration",
-    "jsr:@o-industrial/atomic@0.0.5-integration/atoms": "../open-industrial-atomic/src/atoms/.exports.ts",
-    "jsr:@o-industrial/atomic@0.0.5-integration/icons": "../open-industrial-atomic/build/iconset/icons/.exports.ts",
-    "jsr:@o-industrial/atomic@0.0.5-integration/molecules": "../open-industrial-atomic/src/molecules/.exports.ts",
-    "jsr:@o-industrial/atomic@0.0.5-integration/organisms": "../open-industrial-atomic/src/organisms/.exports.ts",
-    "jsr:@o-industrial/atomic@0.0.5-integration/templates": "../open-industrial-atomic/src/templates/.exports.ts",
-    "jsr:@o-industrial/atomic@0.0.5-integration/tailwind/preset": "../open-industrial-atomic/configs/tailwind/preset.ts",
-    "jsr:@o-industrial/atomic@0.0.5-integration/utils": "../open-industrial-atomic/src/utils/.exports.ts",
-
+    // "@o-industrial/common/runtimes": "../open-industrial-reference-architecture/src/runtimes/.exports.ts",
+    
     "@nats": "npm:nats@2.29.3",
     "preact": "npm:preact@10.20.1",
     "preact/hooks": "npm:preact@10.20.1/hooks",
