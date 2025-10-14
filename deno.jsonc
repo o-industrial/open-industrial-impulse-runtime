@@ -30,7 +30,7 @@
     "@fathym/eac": "jsr:@fathym/eac@0.2.131",
     "@fathym/eac-applications": "jsr:@fathym/eac-applications@0.0.205",
 
-    "@fathym/eac-azure": "jsr:@fathym/eac-azure@0.0.115",
+    "@fathym/eac-azure": "jsr:@fathym/eac-azure@0.0.118",
     // "@fathym/eac-azure/steward/plugins": "../../fathym-deno/eac-azure/src/steward/plugins/.exports.ts",
 
     "@fathym/eac-deno-kv": "jsr:@fathym/eac-deno-kv@0.0.25",
