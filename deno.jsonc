@@ -37,7 +37,7 @@
     "@fathym/eac-iot": "jsr:@fathym/eac-iot@0.0.27",
     "@fathym/ioc": "jsr:@fathym/ioc@0.0.15",
 
-    "@o-industrial/common": "jsr:@o-industrial/common@0.0.487",
+    "@o-industrial/common": "jsr:@o-industrial/common@0.0.511",
     // "@o-industrial/common/runtimes": "../open-industrial-reference-architecture/src/runtimes/.exports.ts",
     
     "@nats": "npm:nats@2.29.3",
